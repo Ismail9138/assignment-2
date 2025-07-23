@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.inter {
+  font-family: "Inter", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+.noto {
+  font-family: "Noto Serif", serif;
+}
+.max {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-btn {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.navbar-btn li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #8987a1;
+  margin-left: 20px;
+}
+.navbar-btn li,
+a:hover {
+  color: #070709;
+  font-weight: bold;
+}
+.nav-right {
+  display: flex;
+}
+.cart {
+  color: #8987a1;
+  font-weight: bold;
+}
+/* navbar end */
+.banner-container {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+.left-side h1 {
+  font-size: 4.06rem;
+  margin-bottom: 13px;
+}
+.left-side p {
+  font-size: 1.375rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+}
+.right-side {
+}
+.font-color {
+  color: #e95a08;
+}
+/* plant section start */
+.plants-section {
+  text-align: center;
+  margin-top: 120px;
+}
+.plants-section h2 {
+  font-size: 3.1rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.plants-section p {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.5);
+  width: 888px;
+  margin: auto;
+}
+.cards {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.card {
+  width: 270px;
+  height: 510px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.card h4 {
+  font-size: 1.3rem;
+  color: #111111;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card h3 {
+  font-size: 1.3rem;
+  color: #111111;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.card button {
+  background-color: #e95a08;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 270px;
+  height: 50px;
+  border: none;
+}
+@media screen and (max-width: 576px) {
+  .navbar img {
+    width: 100%;
+  }
+
+  .nav-right ul {
+    display: none;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .right-side img {
+    width: 100%;
+    /* height: 245px; */
+  }
+  .left-side h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* margin-top: 28px;
+    margin-bottom: 13px; */
+    margin: 28px 16px 13px;
+  }
+  .left-side p {
+    font-size: 0.8rem;
+    margin: 8px 16px 13px;
+  }
+}
