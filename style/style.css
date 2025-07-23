@@ -121,11 +121,20 @@ a:hover {
   align-items: center;
   gap: 60px;
   margin-top: 210px;
+  margin-bottom: 210px;
+  position: relative;
+}
+.badge {
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  left: 347px;
+  top: -120px;
 }
 .und-right-side-love {
   width: 540px;
   /* height: 521px; */
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
 }
 .und-right-side-love h2 {
   font-size: 4.15rem;
@@ -138,6 +147,72 @@ a:hover {
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
   margin-left: 30px;
+}
+
+/* join section start */
+.join-section {
+  margin-top: 120px;
+  height: 420px;
+  /* width: 1440px; */
+  margin: auto;
+
+  background-image: url("../assets/news-letter-bg.png");
+  background-size: cover;
+  padding-top: 350px;
+}
+.title {
+  font-size: 4.15rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.join-input {
+  text-align: center;
+  align-items: center;
+}
+.email-input {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 644px;
+}
+.btn-input {
+  background-color: #e95a08;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  /* width: 270px;
+  height: 50px; */
+  border: none;
+  padding: 15px;
+}
+/* footer section start */
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  width: 1120px;
+  margin: auto;
+  margin-top: 50px;
+}
+.color {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  width: 359px;
+  margin-top: 16px;
+}
+.padding {
+  padding-bottom: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+}
+.logo img {
+  margin-left: 20px;
+}
+.banner-container {
+}
+.list-footer ul {
+  list-style: none;
 }
 @media screen and (max-width: 576px) {
   .navbar img {
