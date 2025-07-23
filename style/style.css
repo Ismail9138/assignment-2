@@ -115,6 +115,30 @@ a:hover {
   height: 50px;
   border: none;
 }
+/* lover section start */
+.lover-section {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-top: 210px;
+}
+.und-right-side-love {
+  width: 540px;
+  /* height: 521px; */
+  border: 1px solid tomato;
+}
+.und-right-side-love h2 {
+  font-size: 4.15rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.list-item {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
 @media screen and (max-width: 576px) {
   .navbar img {
     width: 100%;
