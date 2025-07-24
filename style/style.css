@@ -208,11 +208,129 @@ a:hover {
 }
 .logo img {
   margin-left: 20px;
+  align-items: center;
 }
 .banner-container {
 }
 .list-footer ul {
   list-style: none;
+}
+/* latest deal section start */
+.latest-section {
+  margin-bottom: 120px;
+}
+.deal-section {
+  text-align: center;
+}
+.deal-section-title {
+  font-size: 4.15rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.deal-section-p {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.5);
+  width: 888px;
+  margin: auto;
+  margin-bottom: 120px;
+}
+.images {
+  display: flex;
+  width: 1140px;
+  margin: auto;
+  justify-content: space-between;
+}
+.tow-image img {
+  display: flex;
+}
+.first-img {
+  margin-bottom: 12px;
+  background-image: url("../assets/deal-ana.png");
+  position: relative;
+  width: 366.22px;
+  height: 206px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.first-img::before {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  content: "";
+  width: 366.22px;
+  height: 206px;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+.second-img {
+  background-image: url("../assets/deal-bloom.png");
+  position: relative;
+  width: 366.22px;
+  height: 206px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.second-img::before {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  content: "";
+  width: 366.22px;
+  border-radius: 10px;
+  height: 206px;
+  top: 0;
+  left: 0;
+}
+.one-image {
+  background-image: url("../assets/deal-zabo.png");
+  position: relative;
+  width: 753px;
+  height: 423.13px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.one-image::before {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  content: "";
+  width: 753px;
+  height: 423.13px;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+}
+.off {
+  font-size: 1.25rem;
+  position: absolute;
+  font-weight: bold;
+  color: white;
+  left: 80px;
+  top: 65px;
+}
+.shop {
+  position: absolute;
+  font-weight: 400;
+  color: white;
+  left: 144px;
+  top: 111px;
+}
+.big {
+  font-size: 2.35rem;
+  position: absolute;
+  font-weight: bold;
+  color: white;
+  left: 200px;
+  top: 172px;
+}
+.now {
+  position: absolute;
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: white;
+  left: 305px;
+  top: 250px;
 }
 @media screen and (max-width: 576px) {
   .navbar img {
