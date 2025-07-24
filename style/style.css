@@ -456,10 +456,9 @@ a:hover {
   .images {
     flex-direction: column;
     width: 365px;
-    border: 1px solid tomato;
   }
   .one-image {
-    width: 363px;
+    width: 365px;
     height: 177px;
   }
   .one-image::before {
