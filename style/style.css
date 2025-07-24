@@ -130,6 +130,15 @@ a:hover {
   position: absolute;
   left: 347px;
   top: -120px;
+  animation: spin 5s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 .und-right-side-love {
   width: 540px;
@@ -504,5 +513,6 @@ a:hover {
   .footer-section {
     flex-direction: column;
     width: 359px;
+    margin-left: 50px;
   }
 }
