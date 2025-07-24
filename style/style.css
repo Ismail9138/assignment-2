@@ -155,7 +155,6 @@ a:hover {
   height: 420px;
   /* width: 1440px; */
   margin: auto;
-
   background-image: url("../assets/news-letter-bg.png");
   background-size: cover;
   padding-top: 350px;
@@ -271,6 +270,7 @@ a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
+  margin-bottom: 12px;
 }
 .second-img::before {
   position: absolute;
@@ -332,9 +332,17 @@ a:hover {
   left: 305px;
   top: 250px;
 }
+.hide {
+  display: none;
+}
 @media screen and (max-width: 576px) {
   .navbar img {
-    width: 100%;
+    width: 50%;
+  }
+  .navbar {
+    width: 90%;
+    align-items: center;
+    margin-top: 10px;
   }
 
   .nav-right ul {
@@ -342,20 +350,160 @@ a:hover {
   }
   .banner-container {
     flex-direction: column-reverse;
+    margin-top: 20px;
   }
   .right-side img {
     width: 100%;
     /* height: 245px; */
+    margin-top: 0px;
   }
+  /* .left-side {
+    width: 370px;
+  } */
   .left-side h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     /* margin-top: 28px;
     margin-bottom: 13px; */
     margin: 28px 16px 13px;
   }
   .left-side p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 8px 16px 13px;
+  }
+  .plants-section {
+    margin-top: 65px;
+  }
+  .plants-section p {
+    width: 336px;
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 362px;
+    margin: auto;
+  }
+  .card {
+    width: 171px;
+    height: 332.5px;
+    /* border: 1px solid tomato; */
+    margin-bottom: 15px;
+  }
+  .card img {
+    width: 171px;
+    height: 196.5px;
+  }
+  .card button {
+    width: 171px;
+    height: 50px;
+  }
+  .card h4 {
+    font-size: 1rem;
+    color: #111111;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .card h3 {
+    font-size: 1.3rem;
+    color: #111111;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .lover-section {
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 140px;
+    gap: 0px;
+  }
+  .left-side-love img {
+    width: 358px;
+    height: 396px;
+  }
+  .badge {
+    display: none;
+  }
+  .und-right-side-love h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .und-right-side-love {
+    width: 361px;
+    margin-top: 20px;
+  }
+  .list-item {
+    font-size: 1.1rem;
+  }
+  .deal-section {
+    text-align: center;
+  }
+  .deal-section-title {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  .deal-section-p {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+    width: 350px;
+    margin: auto;
+    margin-bottom: 45px;
+  }
+  .images {
+    flex-direction: column;
+    width: 365px;
+    border: 1px solid tomato;
+  }
+  .one-image {
+    width: 363px;
+    height: 177px;
+  }
+  .one-image::before {
+    width: 363px;
+    height: 177px;
+  }
+  .big {
+    font-size: 1.25rem;
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    left: 80px;
+    top: 50px;
+  }
+  .now {
+    position: absolute;
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: white;
+    left: 140px;
+    top: 100px;
+  }
+  .title {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  .join-section {
+    margin-top: 120px;
+    height: 200px;
+    /* width: 1440px; */
+    margin: auto;
+    background-image: url("../assets/news-letter-bg.png");
+    background-size: cover;
+    padding-top: 100px;
+  }
+  .email-input {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 218px;
+  }
+  .footer-section {
+    flex-direction: column;
+    width: 359px;
   }
 }
