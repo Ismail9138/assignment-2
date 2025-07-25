@@ -518,4 +518,7 @@ a:hover {
   .color {
     width: 80%;
   }
+  .logo img {
+    margin-left: 10px;
+  }
 }
