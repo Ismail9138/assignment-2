@@ -512,7 +512,10 @@ a:hover {
   }
   .footer-section {
     flex-direction: column;
-    width: 359px;
+    width: 300px;
     margin-left: 50px;
+  }
+  .color {
+    width: 300px;
   }
 }
