@@ -61,8 +61,7 @@ a:hover {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
 }
-.right-side {
-}
+
 .font-color {
   color: #e95a08;
 }
@@ -217,8 +216,6 @@ a:hover {
 .logo img {
   margin-left: 20px;
   align-items: center;
-}
-.banner-container {
 }
 .list-footer ul {
   list-style: none;
